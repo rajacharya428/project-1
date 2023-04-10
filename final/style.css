@@ -1,0 +1,291 @@
+/*navbar and logo*/
+.nav-brand {
+    width: 5%;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+   ul li {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #000000;
+  }
+  /*header section 1*/
+.top {
+    background-color:  rgba(0, 44, 62, 1) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .text-block{
+    position: absolute ;
+    top: 25%;
+    background:rgba(17, 72, 17, 0.275);
+    color: white;
+    width:100%;
+    max-width: 500px;
+    height: auto;
+  
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+
+  }
+  .boston {
+
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ff6420;
+    font-size: 50px;
+    
+    }
+    .text-block .btn{
+      margin-bottom: 50px;
+      background-color: #b60e13; 
+      border:none;
+      border-radius: 20px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family:'Times New Roman', Times, serif;
+      cursor: pointer;
+      transition-duration: 0.4s;
+}  
+.text-block .btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(255, 255, 255);
+  color: #c60d0d;
+ 
+
+}
+.text-block p {
+  padding-right: 50px;
+  text-align: center;
+}
+
+
+
+.gallery {
+ padding: 80px 0 80px 0; 
+ 
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.animation {
+  width: 640px;
+  min-width: 639px;
+  display: flex; 
+  margin-left: 50%;
+  padding-top: 5%;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.left{
+  cursor: pointer;
+} 
+.right{
+  cursor: pointer;
+}
+.card{
+border: 1px solid whitesmoke;
+width:200px;
+height: 400px;
+min-width:200px;
+min-height:400px;
+transition-duration: 1000ms;
+margin: 5px;
+z-index: 1;
+
+}
+.p1{
+background: url(/final/image/shakw.jpg);
+background-size:cover;
+}
+.p2{
+background:url(image/avatar.jpg);
+background-size: cover;
+
+}
+.p3{
+background:url(image/bad\ boys.jpg);
+background-size: cover;
+}
+.p4{
+background:url(image/jurassic\ world.jpg);
+background-size: cover;
+}
+.p5{
+background:url(image/doctor\ strange.jpg);
+background-size: cover;
+}
+.p6{
+background:url(image/spiderman.jpg);
+background-size: cover;
+}
+/*this is part 2 movie section*/
+
+.part2{
+  background:  #17474c;
+  padding-top: 30px ;
+}
+
+.movies {
+  
+  background-color:rgba(7, 8, 17, 0.31); 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  
+  
+}
+.movies h1{
+  margin-left: 3px;
+  color:#c60d0d;
+  
+  }
+
+  .date{
+  
+ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    color: red;
+    
+  }
+  .movies .btn{
+    color: #f4f4f4;
+  }
+
+
+  .carousel{
+    padding:20px 0 30px 0;
+  }
+  .card-img-top{
+    height: 70%;
+  }
+  
+  /*Part 4 how it works*/
+  .part4{
+    background-color:#f7f8fc;
+  }
+  .p4head{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .how-it-works{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f4f4f4;
+    
+    }
+  
+  .how-it-works .card{
+    width: 12rem;
+    
+    }
+
+    .reg-dir{
+      background-color: #378797 ;
+    
+    }
+    .reg{
+  
+      margin-left: 150px;
+      padding: 25px 0;
+      font-size: 45px;
+      text-transform: uppercase;
+      font-family: oswald;
+      font-weight: 700;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.24);
+    
+    
+    }
+    .section-form{
+      box-shadow: rgba(0,0,0,0.24) 0 5px 15px;
+      padding: 40px 30px;
+    
+    
+    }
+    .map-area{
+      width: 600px;
+      height: 415px;
+      box-shadow: rgba(0,0,0,0.24) 0 5px 15px;
+    
+    }
+    .register-area{
+      padding-bottom: 100px;
+    }
+
+
+@media  screen and (max-width:1281px) {
+ .animation{
+  margin-left: 42%;
+ }
+ .map{
+  width: 550px;
+ } 
+ .map-area{
+  width: 550px;
+  
+  }
+
+
+  
+}
+@media  screen and (max-width:1150px) {
+  .animation{
+    margin-left: 39%;
+    padding-top: 10%;
+    width:530px ;
+    min-width:590px;
+
+
+
+  }
+  .card{
+    width: 270px;
+    min-height: 300px;
+  }
+  .text-block{
+    max-width: 400px; 
+  }
+  .map{
+    width: 400px;
+   } 
+   .map-area{
+    width: 400px;
+    
+    }
+  
+
+}
+@media  screen and (max-width:1000px){
+  .text-block{
+    max-width: 350px; 
+  }
+  .animation{
+    margin-left: 35%;
+    padding-top: 15%;
+  }
+
+}
+@media  screen and (max-width:970px){
+  .animation{
+    flex-direction;
+  }
+    
+  }
